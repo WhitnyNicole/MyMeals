@@ -1,0 +1,24 @@
+
+<%= form_for (@user), url: '/login'  do |f| %>
+  <%= f.label :email %>
+  <%= f.email_field :email, required:true  %>
+
+  <%= f.label :password %>
+  <%= f.password_field :password, required:true  %>
+
+  <%= f.label :password_confirmation, "Confirmation" %>
+  <%= f.password_field :password_confirmation, required:true  %>
+
+  <br><br>
+
+
+  <%= f.submit "Log in" %>
+
+
+<% end %>
+
+<br><br>
+
+<div class="center colormatch">
+  [ <%= link_to "Don't have an account? Click to Sign Up", signup_path %>]
+</div>
