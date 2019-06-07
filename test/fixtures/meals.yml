@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  food: MyString
+  beverage: MyString
+  beverage_ounces: 1
+  day: 2019-06-07 12:03:51
+  user_id: 1
+  favorite: false
+
+two:
+  food: MyString
+  beverage: MyString
+  beverage_ounces: 1
+  day: 2019-06-07 12:03:51
+  user_id: 1
+  favorite: false
